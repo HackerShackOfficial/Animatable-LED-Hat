@@ -1,6 +1,11 @@
 # Animatable-LED-Hat
 Battery operated, LED matrix hat that can be programmed to display interesting designs.
 
+## Demo and Build Instructions
+Click the gif for a link to the video or read the [full writeup]() for this project on hackster.io
+
+[![Link to youtube how-to video](./_img/hat_demo.gif)](https://www.youtube.com/channel/UCEcNXmr7DYq1XxpWHSxaN0w)
+
 ## Setup Guide
 In order to upload the code to your board, make sure you've completed the following steps:
 
@@ -62,4 +67,4 @@ Similar to `drawShape`, but this function displays an animated design. Instead o
 ```
 void rainbowAnimation(byte shape[][8], int frames, int cycles, int delayTime)
 ```
-Similar to `animate`, but changes the color for each frame.
+Similar to `animate`, but changes the color for each frame. 
